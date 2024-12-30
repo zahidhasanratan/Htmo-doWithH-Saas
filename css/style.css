@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* ======= Navbar Started Here ======= */
+#navbar{
+    padding: 23px 0;
+    background-color: #FFFFFF33;
+    backdrop-filter: blur(4px);
+}
+.nav_wrapper{
+display: flex;
+align-items: center;
+}
+.logo{
+    width: 20%;
+}
+.menu{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.menu li a{
+    color: #606D93;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: normal;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+    font-family: "Urbanist", serif;
+}
+.menu li a:hover{
+    color: #192252;
+    font-weight: 500;
+}
+
+.nav_btn{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav_btn a{
+    display: inline-block;
+    background-color: #6345D5;
+    border-radius: 8px;
+    padding: 16px 40px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Urbanist", serif;
+    text-transform: capitalize;
+    border: 1px solid #6345D5;
+    transition: all linear 0.3s;
+}
+.nav_btn a:hover{
+    background-color: transparent;
+    color: #6345D5;
+}
+
+/* ======= Navbar Ended Here ======= */
+
+/* ======= Navbar Started Here ======= */
+
+/* ======= Navbar Ended Here ======= */
+
+/* ======= Navbar Started Here ======= */
+
+/* ======= Navbar Ended Here ======= */
+
+/* ======= Navbar Started Here ======= */
+
+/* ======= Navbar Ended Here ======= */
+
+/* ======= Navbar Started Here ======= */
+
+/* ======= Navbar Ended Here ======= */
+
+/* ======= Navbar Started Here ======= */
+
+/* ======= Navbar Ended Here ======= */
+
+/* ======= Navbar Started Here ======= */
+
+/* ======= Navbar Ended Here ======= */
+
