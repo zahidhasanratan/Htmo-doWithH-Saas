@@ -185,11 +185,11 @@ color:white;
     object-fit: cover;
 }
 
-/* ======= Banner Started Here ======= */
+/* ======= Counter Started Here ======= */
 #counter{
     background: #201353;
-    height: 1000px;
     padding-top: 522px;
+    padding-bottom: 32px;
 }
 .counter_wrapper{
 padding: 48px;
@@ -200,8 +200,7 @@ align-items: center;
 justify-content: space-between;
 }
 .counter_item{
-    /* width: 28%; */
-    height: 50px;
+   
     display: flex;
     align-items: center;
     gap: 16px;
@@ -240,17 +239,137 @@ color: #FFFFFF;
     justify-content: end;
 }
 
-/* ======= Navbar Ended Here ======= */
-
-/* ======= Counter Started Here ======= */
-
-
-
 /* ======= Counter Ended Here ======= */
 
-/* ======= Navbar Started Here ======= */
+/* ======= Feature Started Here ======= */
+.feature_main{
+    margin-top: 48px;
+}
+#feature{
+    padding: 100px 0;
+    background-color: #201353;
+    position: relative;
+}
+.feature_heading{
+    display: flex;
+    justify-content: space-between;
+}
+.feature_heading h2{
+    color: white;
+    max-width: 514px;
+    font-size: 52px;
+    line-height: normal;
+    font-weight: 700;
+}
+.feature_heading p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #FFFFFFA3;
+    max-width: 555px;
+    margin-top: 18px;
+}
+.feature_wrapper{
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+.feature_img{
+    position: absolute;
+    bottom: -4px;
+    right: 12%;
+}
+/* ======= Feature Ended Here ======= */
+.feature_wrapper .transition{
+    width: 368px;
+    border-radius: 16px;
+    background-color: white;
+    padding: 24px;
+}
+.transition .transition_heading{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.transition .transition_heading h4{
+color: #192252;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+}
+.transition > p{
+font-weight: 400;
+margin-top: 20px;
+font-size: 16px;
+line-height: 24px;
+color: #848FAC;
+}
+.transition .progress{
+    margin-top: 24px;
+    background-color: #EFF3FA;
+    border-radius: 2px;
+    height: 4px;
+    position: relative;
+    overflow: hidden;
+}
+.transition .progress::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    height: 100%;
+    width: 40%;
+    background-color: #6245D5;
+    top: 0;
+    border-radius: 2px;
+}
+.feature_wrapper .history{
+    width: 368px;
+    border:1.5px solid #2C1A74;
+    border-radius: 16px;
+    padding: 24px;
+}
+.history .history_heading{
+display: flex;
+gap: 12px;
+align-items: center;
+}
+.history .history_heading h4{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
 
-/* ======= Navbar Ended Here ======= */
+}
+.skilliton1{
+    margin-top: 20px;
+    width: 307px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: #FFFFFF4D;
+
+}
+.skilliton2{
+    margin-top: 10px;
+    width: 287px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: #FFFFFF4D;
+
+}
+.skilliton3{
+    margin-top: 26px;
+    width: 320px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #FFFFFF26;
+
+}
+/* ======= video Started Here ======= */
+#video{
+    height: 100px;
+}
+/* ======= video Ended Here ======= */
 
 /* ======= Navbar Started Here ======= */
 
