@@ -79,8 +79,7 @@ align-items: center;
 }
 
 /* ======= Banner Ended Here ======= */
-#banner{
-}
+
 .shape1, .shape2{, .shape3
     position: relative;
 }
@@ -187,15 +186,67 @@ color:white;
 }
 
 /* ======= Banner Started Here ======= */
-#xyz{
+#counter{
     background: #201353;
     height: 1000px;
+    padding-top: 522px;
 }
+.counter_wrapper{
+padding: 48px;
+background-color: #FFFFFF14;
+border-radius: 24px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.counter_item{
+    /* width: 28%; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+}
+.counter_item::after{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 50%;
+    transform: translate(64px,-50%);
+    height: 32px;
+    width: 2px;
+    background: #FFFFFF14;
+}
+.counter_item:last-child::after{
+    background-color: transparent;
+}
+.counter_item .count_title{
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+color: #FFFFFFA3;
+}
+.counter_item .count_number{
+font-size: 48px;
+font-weight: 700;
+line-height: 57.6px;
+color: #FFFFFF;
+}
+.counter_item:first-child{
+    justify-content: start;
+}
+.counter_item:last-child{
+    justify-content: end;
+}
+
 /* ======= Navbar Ended Here ======= */
 
-/* ======= Navbar Started Here ======= */
+/* ======= Counter Started Here ======= */
 
-/* ======= Navbar Ended Here ======= */
+
+
+/* ======= Counter Ended Here ======= */
 
 /* ======= Navbar Started Here ======= */
 
