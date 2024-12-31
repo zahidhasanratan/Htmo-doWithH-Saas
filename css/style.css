@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Urbanist", serif;
 }
 a{
     text-decoration: none;
@@ -21,7 +22,12 @@ h1,h2,h3,h4,h5,h6,p{
 #navbar{
     padding: 23px 0;
     background-color: #FFFFFF33;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 .nav_wrapper{
 display: flex;
@@ -44,7 +50,6 @@ align-items: center;
     line-height: normal;
     text-transform: capitalize;
     transition: all linear 0.3s;
-    font-family: "Urbanist", serif;
 }
 .menu li a:hover{
     color: #192252;
@@ -65,20 +70,127 @@ align-items: center;
     color: white;
     font-weight: 700;
     line-height: normal;
-    font-family: "Urbanist", serif;
     text-transform: capitalize;
-    border: 1px solid #6345D5;
     transition: all linear 0.3s;
 }
 .nav_btn a:hover{
-    background-color: transparent;
+    background-color: white;
     color: #6345D5;
 }
 
-/* ======= Navbar Ended Here ======= */
+/* ======= Banner Ended Here ======= */
+#banner{
+}
+.shape1, .shape2{, .shape3
+    position: relative;
+}
+.shape1 img{
+    position: absolute;
+    top :0;
+    right: 0;
+}
+.shape2 img{
+    position: absolute;
+    top :100px;
+    right: 0;
+}
+.shape3 img{
+    position: absolute;
+    top :14 0px;
+    left: 0;
+}
 
-/* ======= Navbar Started Here ======= */
+.banner_wrapper{
+    padding-top: 215px;
+    display: flex;
+    gap: 54px;
+    padding-bottom: 660px;
+}
+.banner_desc{
+    width: 503px;
+    position: relative;
+    z-index: 999;
+}
+.banner_desc h1{
+    color: #192252;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
 
+}
+.banner_desc p{
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #848FAC;
+padding: 40px 0;
+}
+.banner_btn{
+    display: flex;
+    gap:24px;
+}
+.banner_btn a:first-child{
+    padding: 20px 40px;
+    background-color: #6245D5;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    display: inline-block;
+    transition: all linear 0.3s;
+}
+.banner_btn a:first-child:hover{
+    background-color: white;
+    color: #6245D5;
+}
+.banner_btn a:last-child{
+    padding: 20px 40px;
+    background-color: white;
+    color: #6245D5;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    display: inline-block;
+    transition: all linear 0.3s;
+}
+.banner_btn a:last-child:hover{
+background-color: #6245D5;
+color:white;
+}
+
+.banner_img{
+    width: 683px;
+    position: relative;
+    left: 40px;
+}
+.banner_bigimg_box{
+    position:relative;
+}
+.banner_bigimg{
+    width: 100%;
+    height: 882px;
+    border-radius: 24px;
+    background: #D9D9D9;
+    position: absolute;
+    bottom: -422px;
+    z-index: 999;
+    overflow: hidden;
+}
+.banner_bigimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ======= Banner Started Here ======= */
+#xyz{
+    background: #201353;
+    height: 1000px;
+}
 /* ======= Navbar Ended Here ======= */
 
 /* ======= Navbar Started Here ======= */
