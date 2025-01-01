@@ -431,9 +431,32 @@ align-items: center;
 
 /* ======= video Ended Here ======= */
 
-/* ======= Navbar Started Here ======= */
-
-/* ======= Navbar Ended Here ======= */
+/* ======= Brand Started Here ======= */
+#brand{
+padding-bottom: 62px;
+}
+#brand .brand_heading{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #848FAC;
+    text-align: center;
+}
+.brand_wrapper{
+    margin-top: 32px;
+    display: flex;
+    column-gap:24px ;
+    justify-content: center;
+}
+.brand_wrapper .brand_item{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+.brand_wrapper .brand_item img{
+    width: 80%;
+}
+/* ======= Brand Ended Here ======= */
 
 /* ======= Navbar Started Here ======= */
 
