@@ -458,9 +458,45 @@ padding-bottom: 62px;
 }
 /* ======= Brand Ended Here ======= */
 
-/* ======= Navbar Started Here ======= */
+/* ======= Pricing Started Here ======= */
+#price{
 
-/* ======= Navbar Ended Here ======= */
+}
+#price .price_heading{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#price .price_heading h3{
+    color: #192252;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: normal;
+}
+#price .price_heading p{
+color: #848FAC;
+font-weight: 500;
+font-size: 18px;
+line-height: 21.6px;
+margin-top: 24px;
+}
+
+.price_wrapper{
+    display: flex;
+    gap: 80px;
+    margin-top: 64px;
+    justify-content: center;
+}
+.package_main{
+    height: 200px;
+    width: 515px;
+
+}
+.plan_main{
+    width: 52px;
+    height: 200px;
+}
+/* ======= Pricing Ended Here ======= */
 
 /* ======= Navbar Started Here ======= */
 
