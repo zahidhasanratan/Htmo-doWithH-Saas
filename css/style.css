@@ -488,7 +488,9 @@ margin-top: 24px;
     justify-content: center;
 }
 .package_main{
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
     width: 515px;
 
 }
@@ -496,6 +498,88 @@ margin-top: 24px;
     width: 52px;
     height: 200px;
 }
+.package_main .package_item{
+    padding: 24px;
+    border-radius: 16px;
+    border : 1.5px solid;
+    background-color: #EFF3FA;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    transition: all linear 0.3s;
+}
+
+.package_item .package_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.package_item .package_input{
+    height: 24px;
+    width: 24px;
+}
+.package_details .details_text h4{
+    color: #192252;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+
+.package_details .details_text h4 span{
+    color: #219653;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: normal;
+    background-color: #21965314;
+    margin-top: 4px;
+    border-radius: 11px;
+    display: inline-block;
+    padding: 4px 12px;
+}
+.package_details .details_text p{
+    color: #848FAC;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 8px;
+    max-width: 236px;
+}
+.package_details .price_ammount .price_number{
+color: #192252;
+width: 700;
+font-size: 32px;
+line-height: normal;
+}
+.package_details .price_ammount{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: end;
+}
+.package_details .price_ammount .package_duration{
+    font-size: 16px;
+    font-weight: 500;
+    color: #848FAC;
+    line-height: normal;
+}
+.package_main .package_item:hover{
+    background-color: #6245D5;
+    color: white;
+    border: 1.5px solid #6245D5;
+}
+
+.package_main .package_item:hover .package_details .details_text h4{
+color: white;
+}
+
+.package_main .package_item:hover .package_details .details_text p{
+    color: white;
+    }
+.package_main .package_item:hover .package_details .details_text .price_ammount{
+    color: white;
+    }
 /* ======= Pricing Ended Here ======= */
 
 /* ======= Navbar Started Here ======= */
