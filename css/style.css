@@ -486,6 +486,7 @@ margin-top: 24px;
     gap: 80px;
     margin-top: 64px;
     justify-content: center;
+    align-items: flex-start;
 }
 .package_main{
     display: flex;
@@ -495,8 +496,48 @@ margin-top: 24px;
 
 }
 .plan_main{
-    width: 52px;
-    height: 200px;
+    background-color: #F7F7F7;
+    border-radius: 16px;
+    padding: 52px;
+    width: 515px;
+}
+.plan_main .plan_btn{
+    border-radius: 40px;
+    background-color: white;
+    padding: 4px;
+    display: inline-block;
+}
+.plan_main .plan_btn .active{
+background-color: #FC9770;
+color: white;
+border-radius: 22px;
+}
+.plan_main .plan_btn button{
+    border: none;
+    background-color: transparent;
+    padding: 12px 16px;
+    color: #848FAC;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: normal;
+}
+.plan_main ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan_main ul li span{
+color: #192252;
+font-weight: 500;
+font-size: 18px;
+line-height: normal;
+}
+.plan_main ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 52px;
+    margin-top: 48px;
 }
 .package_main .package_item{
     padding: 24px;
@@ -580,6 +621,37 @@ color: white;
 .package_main .package_item:hover .package_details .details_text .price_ammount{
     color: white;
     }
+
+ .package_input input[type='radio']::after{
+width: 24px;
+margin-top: 9px;
+height: 24px;
+border-radius: 50%;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+position: relative;
+background-color: white;
+content: '';
+display: inline-block;
+visibility: visible;
+border: 2px solid #848FAC;
+cursor: pointer;
+ }   
+ .package_input input[type='radio']:checked::after{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    content: '';
+    visibility: visible;
+    border: 6px solid white;
+    display: inline-block;
+    position: relative;
+    background-color: #6245D5;
+    border-top-color: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
 /* ======= Pricing Ended Here ======= */
 
 /* ======= Navbar Started Here ======= */
