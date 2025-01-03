@@ -654,6 +654,172 @@ cursor: pointer;
  }
 /* ======= Pricing Ended Here ======= */
 
+/* ======= Review Started Here ======= */
+#review{
+    padding: 100px 0;
+    background-color: #201353;
+}
+.review_wrapper{
+    display: flex;
+    column-gap: 150px;
+}
+.review_main{
+    width: 490px;
+}
+.review_main .review_text{
+    margin-top: 64px;
+}
+.review_main .review_text p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    margin-top: 48px;
+}
+.review_main .review_text .reviewer{
+color: #FFFFFFA3;
+font-weight: 500;
+font-size: 20px;
+display: inline-block;
+margin-top: 46px;
+margin-bottom: 46px;
+line-height: 30px;
+}
+.reiew_img_main{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.review_img_wrapper{
+    display: flex;
+    gap: 24px;
+}
+.review_img_item{
+    background-color: #D9D9D9;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.review_img_item img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.review_img_item:nth-child(2){
+    opacity: 0.75;
+}
+.review_img_item:nth-child(3){
+    opacity: 0.5;
+}
+.review_img_item:nth-child(4){
+    opacity: 0.25;
+}
+.review_arrow{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 1.5px solid #FFFFFFA3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.review_main .review_heading h3{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: normal;
+}
+.review_main .review_heading p{
+    color: #FFFFFFA3;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: normal;
+    max-width: 434px;
+}
+.contact_form{
+    width: 600px;
+    background-color: #FFFFFF1F;
+    border-radius: 24px;
+    padding: 64px 80px;
+}
+.contact_form .form_heading{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.contact_form .form_heading h5{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: normal;
+}
+.contact_form form{
+    margin-top: 48px;
+}
+.contact_form form .form_group label{
+color: #FFFFFF;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+display: block;
+margin-bottom: 16px;
+}
+.contact_form form .form_group input{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 14px 24px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+.contact_form form .form_group.message{
+margin-top: 24px;
+}
+
+.contact_form form .form_group.message input{
+    height: 80px;
+    }
+.contact_form form .form_group_btn{
+    margin-top: 40px;
+}    
+.contact_form form .form_group_btn button{
+width: 100%;
+border-radius: 8px;
+background-color: #FC9770;
+padding: 20px 40px;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0.2px;
+cursor: pointer;
+}
+.contact_form form .form_group.trial{
+    margin-top: 24px;
+   text-align: right;
+}
+.contact_form form .form_group.trial h5{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+/* ======= Review Ended Here ======= */
+/* ======= Navbar Started Here ======= */
+
+/* ======= Navbar Ended Here ======= */
+/* ======= Navbar Started Here ======= */
+
+/* ======= Navbar Ended Here ======= */
 /* ======= Navbar Started Here ======= */
 
 /* ======= Navbar Ended Here ======= */
